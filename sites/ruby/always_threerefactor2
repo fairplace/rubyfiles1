@@ -1,0 +1,6 @@
+#ask user for a number
+puts"enter a number "
+#convert string to integer 
+first_number=gets.to_i
+#math and convert integer to string
+puts 'always'+(((first_number+5)*2-4)/2-first_number).to_s
